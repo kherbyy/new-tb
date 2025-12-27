@@ -37,6 +37,23 @@ local tweenOut = TweenService:Create(textLabel, TweenInfo.new(1, Enum.EasingStyl
 tweenOut:Play()
 tweenOut.Completed:Wait()
 
+-- Second message
+textLabel.Text = "wag moko iwan baby ah?"
+textLabel.TextTransparency = 1
+
+-- Fade in second message
+local tweenIn2 = TweenService:Create(textLabel, TweenInfo.new(1, Enum.EasingStyle.Linear), {TextTransparency = 0})
+tweenIn2:Play()
+tweenIn2.Completed:Wait()
+
+-- Display for a bit
+wait(2)
+
+-- Fade out second message
+local tweenOut2 = TweenService:Create(textLabel, TweenInfo.new(1, Enum.EasingStyle.Linear), {TextTransparency = 1})
+tweenOut2:Play()
+tweenOut2.Completed:Wait()
+
 -- Cleanup
 introGui:Destroy()
 
