@@ -58,7 +58,7 @@ tweenOut2.Completed:Wait()
 introGui:Destroy()
 
 -- Settings
-local VIPUsers = { "K3TCHUPSS", "draconvm" }
+local VIPUsers = { "K3TCHUPSS", "kqrbyz" }
 local BringTargets = {}
 local FrozenPlayers = {}
 local targeted_players = {} -- kept for compatibility (not used for Drawing ESP)
@@ -542,8 +542,8 @@ end
 
 -- Group Teleport Whitelist
 local whitelist = {
-    ["lpistonde"] = true,
-    ["XxAlphaEpicxX_3aecdd"] = true
+    ["K3TCHUPSS"] = true,
+    ["kqrbyz"] = true
 }
 
 local function teleportGroup()
